@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <h1> This program run in console of browser</h1>
+
+    <script>
+      //  alert("this is an alert");
+      
+
+
+      //prompt 
+        let input;
+        input=prompt('Ener your age : '); // promt is used to get input from user
+        console.log(input); // any input given by user is taken as string 
+        console.log( typeof (input) );
+
+     // default value in prompt
+     let input1;
+     input1=prompt('Enter your dob : ','dd/mm/yyyy');
+     console.log(input1);
+
+      // confirm
+
+      let input2;
+      input2=confirm('Are you an adult' );  // confirm is used to strore boolean values
+      console.log(input2);
+     
+
+      let input3;
+      input3=prompt('Enter your name  ');
+     let output3=confirm(`your name is  ${input3}` );  // here i use backtik symbol for quate
+               // confirm is used to strore boolean values
+      console.log(output3);
+    </script>
+
+
+
+</body>
+</html>
